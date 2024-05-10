@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home {
+    background-color: #54557A;
+    color: white;
+    height: 100vh;
+    padding: 50px;
+    width: 100%;
+    background-image: linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(22, 40, 69, .13) 28%, #1e293b 75%);
+}
+
+.imgg {
+    height: 110px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.sp {
+    color: #C6EC3F;
+}
+
+.image-strike {
+    font-family: Inter, sans-serif;
+    position: absolute;
+    top: auto;
+    bottom: 202px;
+    left: 205px;
+    right: auto;
+}
+
+.head {
+    margin: 10px;
+    font-size: 60px;
+}
+
+p {
+    margin: 10px;
+}
+
+.but {
+    width: 30vw;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.but1 {
+    width: 40vw;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 20px;
+
+}
+
+
+.home2 {
+    background-color: #0f172a;
+    height: 65vh;
+    text-align: center;
+    color: white;
+}
+
+.head2 {
+    padding: 50px;
+}
+
+.scrollimg {
+    height: 52px;
+    margin-top: 25px;
+}
+
+.marquee {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 100px;
+    overflow-x: hidden;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.home3 {
+    background-image: url('https://assets-global.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20(1).png');
+    height: 120vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+
+.image-strike1 {
+    position: relative;
+    top: -35px;
+    bottom: auto;
+    left: 55px;
+    right: 0%;
+}
+
+
+.boxx {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.boxx1 {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #e2e8f0;
+    color: #0f172a;
+}
+
+.p3 {
+    color: white;
+    font-size: 14px;
+}
+
+.p4 {
+    font-size: 12px;
+    color: lightblue;
+}
+
+.imgg1 {
+    width: 18vw;
+    height: 25vh;
+}
+
+.para3 {
+    color: grey;
+}
+
+.thecard {
+    width: 18vw;
+    height: 56vh;
+    background-color: #334155;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.cardhead {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.pcard {
+    color: #e2e8f0;
+    font-size: 15px;
+}
+
+.imgcard {
+    height: 30px;
+    width: 30px;
+    margin: 7px;
+}
+
+.h2 {
+    color: #cbd5e1;
+    margin-bottom: 4px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.butt {
+    width: 30vw;
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.home4 {
+    background-color: #0f172a;
+    height: 70vh;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.boydes {
+    font-size: 24px;
+}
+
+.profile {
+    background-color: #1e293b;
+    height: 36vh;
+    width: 50vw;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.pr {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+
+.happy {
+    background-color: #713f12;
+    border: 1px solid #713f12;
+    padding: 5px;
+    color: orange;
+    border-radius: 20px;
+    width: 40vw;
+    font-size: 20px;
+}
+
+.smile {
+    height: 40px;
+    width: 40px;
+}
+
+.happytext {
+    color: #f59e0b;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.home5 {
+    background-color: #102043;
+    color: white;
+    height: 80vh;
+    padding: 60px;
+}
+
+.but2 {
+    width: 32vw;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.line {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.home6 {
+    background-color: #1A4FA5;
+    height: 17vh;
+    color: white;
+    padding: 20px;
+    background-image: url('https://assets-global.website-files.com/64362e90abbff481a6d25ce8/645345c7c2106e1bd1c65a6c_Background%20String.png');
+}
+
+.p7 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.home7 {
+    background-color: #0f172a;
+    height: 40vh;
+    color: white;
+    padding: 100px;
+}
+
+.payment {
+    color: #5a7184;
+}
+
+.aka {
+    margin: 30px;
+}
+
+.imgg8 {
+    height: 80px;
+    width: 100px;
+    padding: 10px;
+}
+
+.p8 {
+    font-size: 20px;
+    color: #5a7184;
+}
+
+.divb {
+    grid-column-gap: 16px;
+    grid-row-gap: 13px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    margin-top: 24px;
+    display: grid;
+}
+
+.address {
+    margin-top: 15px;
+}
+
+
+.quick {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #5a7184;
+}
+
+.quick1 {
+    margin-bottom: 10px;
+    color: #959ead;
+}
+
+
+.home71 {
+    background-color: #0f172a;
+    height: 20vh;
+    color: white;
+    padding: 30px;
+}
+
+.pri {
+    margin-right: 10px;
+    color: #5a7184;
+}
